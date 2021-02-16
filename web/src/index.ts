@@ -1,5 +1,12 @@
+import { Collection } from "./models/Collection";
 import { User } from "./models/User";
 
-const user = new User({ id: 2, name: "accident", age: 6 });
+const collection = User.buildUserCollection();
 
-// user.save();
+collection.fetch();
+
+function test() {
+  console.log(collection.models);
+}
+
+setTimeout(test, 5000);
