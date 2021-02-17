@@ -1,14 +1,9 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "save test",
-      "age": 14
-    },
-    {
-      "id": 2,
-      "name": "accident",
-      "age": 6
+      "name": "Bob",
+      "age": 50,
+      "id": 1
     }
   ]
 }
